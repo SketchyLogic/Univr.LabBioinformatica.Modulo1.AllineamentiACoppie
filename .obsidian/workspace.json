@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "bb58360369a657ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "978449c7ef49b6f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fe9ed18633019a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/study_path.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "study_path"
+            }
+          },
+          {
+            "id": "9cd56323da4cb155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/glossary/homology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "homology"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0246553bd8a38c76",
+    "type": "split",
+    "children": [
+      {
+        "id": "228fbccae8d06124",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5853c5fd73690d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "229219988f82f3e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b34c1d7770b2705f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5
+  },
+  "right": {
+    "id": "c2f459b7bfe9bcc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a02987d033d16666",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b31ba04c4f0e10b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CLAUDE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CLAUDE"
+            }
+          },
+          {
+            "id": "db3222e7a6c60b96",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CLAUDE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CLAUDE"
+            }
+          },
+          {
+            "id": "cde84773dc4e942a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ee4a4c9e0b50e1e5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "dbba2b72983c6a62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/glossary/homology.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of homology"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9cd56323da4cb155",
+  "lastOpenFiles": [
+    "wiki/study_path.md",
+    "wiki/glossary/identity conservation similarity.md",
+    "wiki/glossary/protein vs DNA alignment.md",
+    "wiki/glossary/applications of pairwise alignment.md",
+    "wiki/glossary/pairwise alignment.md",
+    "wiki/log.md.tmp.23292.379c7920a51f",
+    "wiki/glossary/exercise-dot-plot-construction.md.tmp.23292.ddf9ab59c398",
+    "wiki/glossary/exercise-sequence-identity-percent.md.tmp.23292.dc9dc953db97",
+    "wiki/glossary/exercise-needleman-wunsch-worked.md.tmp.23292.9106c0eab36a",
+    "wiki/glossary/traceback.md.tmp.23292.defa81b4a418",
+    "wiki/glossary/Needleman-Wunsch recurrence.md.tmp.23292.ace94dc39484",
+    "wiki/glossary/Needleman-Wunsch algorithm.md.tmp.23292.7e6f4d684ed2",
+    "wiki/glossary/dynamic programming.md.tmp.23292.dc808c727cc2",
+    "wiki/glossary/sequence identity and similarity percent.md.tmp.23292.59595cd693fe",
+    "wiki/glossary/scoring matrix.md.tmp.23292.4074350a8286",
+    "CLAUDE.md",
+    "wiki/pages/alignment-foundations.md",
+    "wiki/pages/pairwise-alignment-overview.md",
+    "wiki/glossary/exercise-needleman-wunsch-worked.md",
+    "block-quotes.types.md",
+    "Welcome.md",
+    "templates/exercise.md",
+    "_skills/generate-readaloud-script.md",
+    "_skills/math-unraveling.md"
+  ]
+}
