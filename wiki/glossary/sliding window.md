@@ -27,6 +27,8 @@ A **sliding window** is the filter that cleans up a noisy [[dot plot]]. Instead 
 - the window **length** is $L = 2g + 1$;
 - count the identical residues along the diagonal of that window:
 
+N: DotOrNot function
+
 $$N(x,y) = \sum_{h=-g}^{+g} S(x+h,\, y+h), \qquad S = 1 \text{ if } x{+}h \text{ matches } y{+}h,\ \text{else } 0$$
 
 Then apply a **threshold**: mark cell *(x, y)* only if $N(x,y) > s$. Raising *L* demands longer matching stretches (less noise, less sensitivity); lowering it keeps more signal (and more noise).

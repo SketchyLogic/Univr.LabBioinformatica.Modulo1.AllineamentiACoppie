@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "9cd56323da4cb155",
+            "id": "c02313814db55948",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/glossary/homology.md",
+                "file": "wiki/glossary/exercise-needleman-wunsch-worked.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homology"
+              "title": "exercise-needleman-wunsch-worked"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/glossary/homology.md",
+                "file": "wiki/glossary/exercise-needleman-wunsch-worked.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of homology"
+              "title": "Outline of exercise-needleman-wunsch-worked"
             }
           }
         ],
@@ -198,31 +198,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "9cd56323da4cb155",
+  "active": "c02313814db55948",
   "lastOpenFiles": [
     "wiki/study_path.md",
+    "wiki/glossary/exercise-needleman-wunsch-worked.md",
+    "pyNw/README.md",
+    "pyNw/README.md.tmp.23292.61d8960d62a6",
+    "pyNw/__pycache__/nw_visual.cpython-314.pyc",
+    "pyNw/__pycache__",
+    "pyNw/nw_visual.py",
+    "pyNw/nw_visual.py.tmp.23292.de5437d79672",
+    "pyNw",
+    "wiki/log.md.tmp.23292.c4d4cae45920",
+    "wiki/study_path.md.tmp.23292.63efb6cd1de9",
+    "wiki/study_path.md.tmp.23292.b610d459f50f",
+    "wiki/index.md.tmp.23292.10aecc03ac5c",
+    "wiki/glossary/Needleman-Wunsch correctness.md",
+    "wiki/glossary/optimal substructure.md",
+    "wiki/glossary/Needleman-Wunsch algorithm.md",
+    "wiki/glossary/Needleman-Wunsch recurrence.md",
+    "wiki/glossary/dynamic programming.md",
+    "wiki/pages/dynamic-programming-alignment.md",
+    "wiki/glossary/exercise-dot-plot-construction.md",
+    "wiki/glossary/dot plot patterns visualized.md",
+    "wiki/glossary/dot plot patterns.md",
+    "wiki/glossary/sliding window.md",
+    "wiki/glossary/dot plot.md",
+    "wiki/pages/dot-plots.md",
+    "wiki/glossary/edit distance and parsimony.md",
+    "wiki/glossary/match mismatch gap.md",
+    "wiki/glossary/homology.md",
     "wiki/glossary/identity conservation similarity.md",
     "wiki/glossary/protein vs DNA alignment.md",
     "wiki/glossary/applications of pairwise alignment.md",
     "wiki/glossary/pairwise alignment.md",
-    "wiki/log.md.tmp.23292.379c7920a51f",
-    "wiki/glossary/exercise-dot-plot-construction.md.tmp.23292.ddf9ab59c398",
-    "wiki/glossary/exercise-sequence-identity-percent.md.tmp.23292.dc9dc953db97",
-    "wiki/glossary/exercise-needleman-wunsch-worked.md.tmp.23292.9106c0eab36a",
-    "wiki/glossary/traceback.md.tmp.23292.defa81b4a418",
-    "wiki/glossary/Needleman-Wunsch recurrence.md.tmp.23292.ace94dc39484",
-    "wiki/glossary/Needleman-Wunsch algorithm.md.tmp.23292.7e6f4d684ed2",
-    "wiki/glossary/dynamic programming.md.tmp.23292.dc808c727cc2",
-    "wiki/glossary/sequence identity and similarity percent.md.tmp.23292.59595cd693fe",
-    "wiki/glossary/scoring matrix.md.tmp.23292.4074350a8286",
     "CLAUDE.md",
     "wiki/pages/alignment-foundations.md",
     "wiki/pages/pairwise-alignment-overview.md",
-    "wiki/glossary/exercise-needleman-wunsch-worked.md",
-    "block-quotes.types.md",
-    "Welcome.md",
-    "templates/exercise.md",
-    "_skills/generate-readaloud-script.md",
-    "_skills/math-unraveling.md"
+    "block-quotes.types.md"
   ]
 }

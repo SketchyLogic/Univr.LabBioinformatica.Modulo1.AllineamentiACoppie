@@ -8,7 +8,7 @@ prereqs: 3
 density: 3
 value: 5
 CreatedAt: 2026-06-23
-LastUpdateAt: 2026-06-23
+LastUpdateAt: 2026-06-27
 LastReviewAt: null
 ReviewerIds: [admin]
 OwnerIds: [admin]
@@ -23,23 +23,23 @@ GeneratedBy: claude-opus-4-8
 Why it's needed for alignment: the number of possible alignments of two sequences is **astronomically large** (it grows combinatorially with length), so brute-force enumeration is hopeless. DP finds the **provably optimal** alignment **without** computing all of them — a series of local decisions, one per step, each picking the best-scoring move.
 
 ## Optimal substructure
-DP works only when the problem has **optimal substructure**: *an optimal solution is composed of optimal sub-solutions.* For alignment this is the lecture's "**IMPORTANT**" rule: **an optimal alignment is always made of optimal sub-alignments.** [[raw/Teoria_L3_ALLINEAMENTI_A_COPPIE_25-26.pdf#page=8|L3 p.8]]
+DP works only when the problem has **[[optimal substructure]]**: *an optimal solution is composed of optimal sub-solutions.* For alignment this is the lecture's "**IMPORTANT**" rule: **an optimal alignment is always made of optimal sub-alignments.** [[raw/Teoria_L3_ALLINEAMENTI_A_COPPIE_25-26.pdf#page=8|L3 p.8]] (The dedicated entry [[optimal substructure]] gives the cut-and-paste proof and the alignment-specific three-way ending.)
 
 > [!Hint] The test for optimal substructure
 > Peel residues off the **end** of an optimal alignment one at a time; what remains must *still* be optimal for the shorter sequences. If that holds, you can build the full optimum from smaller optima — and reconstruct the path by working backwards ([[traceback]]).
 
-This is exactly why each cell can be filled from its neighbours via a recurrence (see [[Needleman-Wunsch recurrence]]): the best score to reach cell *(i,j)* depends only on the best scores already computed for cells before it. The principle generalises far beyond biology.
+This is exactly why each cell can be filled from its neighbors via a recurrence (see [[Needleman-Wunsch recurrence]]): the best score to reach cell *(i,j)* depends only on the best scores already computed for cells before it. The principle generalizes far beyond biology.
 
 # TLDR
 Dynamic programming solves a big problem by **combining optimal solutions of overlapping sub-problems** (and storing them so none is recomputed). It finds the *provably optimal* alignment without enumerating the astronomically many possibilities — possible because alignment has **optimal substructure**.
 
 # Recitation Anchors
 - Build the big optimum from stored **optimal sub-solutions**
-- Needed because the number of alignments grows combinatorially
+- Needed because the number of alignments grows combinatorically
 - Requires **optimal substructure**
 - Alignment rule: optimal alignment = optimal sub-alignments
 - Test: peel residues off the end → remainder must stay optimal
-- Each cell filled from its neighbours (the recurrence)
+- Each cell filled from its neighbors (the recurrence)
 
 > [!Cool] Cool fact
 > The name has nothing to do with computer code: Richard **Bellman** coined "dynamic programming" in the 1950s partly because "programming" meant *planning/scheduling* and the word sounded impressive to a research-averse Secretary of Defense — he deliberately picked a name no one "could possibly object to." [source](https://en.wikipedia.org/wiki/Dynamic_programming#History)
@@ -62,10 +62,10 @@ And here's the cool part — the name "dynamic programming" has nothing to do wi
 
 # Question and Answer
 Q. Define dynamic programming.
-A. An algorithmic strategy that solves a problem by combining optimal solutions of overlapping sub-problems, storing sub-results to avoid recomputation.
+A. An algorithmic strategy that solves a problem by combining optimal solutions of overlapping sub-problems, storing sub-results to avoid re-computation.
 
 Q. Why can't we just enumerate all alignments?
-A. The number of possible alignments grows combinatorially with sequence length — astronomically large, so brute force is infeasible.
+A. The number of possible alignments grows combinatorically with sequence length — astronomically large, so brute force is infeasible.
 
 Q. What property must a problem have for DP to apply?
 A. Optimal substructure — an optimal solution is composed of optimal sub-solutions.

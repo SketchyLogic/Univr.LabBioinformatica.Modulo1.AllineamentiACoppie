@@ -8,7 +8,7 @@ prereqs: 2
 density: 2
 value: 4
 CreatedAt: 2026-06-23
-LastUpdateAt: 2026-06-23
+LastUpdateAt: 2026-06-26
 LastReviewAt: null
 ReviewerIds: [admin]
 OwnerIds: [admin]
@@ -29,6 +29,8 @@ A [[dot plot]] turns sequence relationships into **geometry**: the *shape* of th
 > Parallel to the main diagonal = same orientation (match/repeat/shift). Perpendicular (anti-diagonal) = **reversed** orientation (inversion). A *break-then-offset* = an indel; a *break-then-flip* = an inversion.
 
 For nucleotide sequences these clean patterns are obscured by random-match noise, which is why a [[sliding window]] and [[scoring matrix]] are layered on top to make the diagonals legible.
+
+To *see* each of these patterns built up from scratch — one worked dot-plot figure per pattern, from a plain main diagonal to the noisy DNA case — work through [[dot plot patterns visualized]].
 
 # TLDR
 The *geometry* of a dot plot's diagonals diagnoses the event relating two sequences: a continuous **main diagonal** (similar), an **anti-diagonal** (inversion), **parallel repeated** diagonals (repetition), and a **shifted/offset** diagonal (indel).

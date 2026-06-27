@@ -1,6 +1,6 @@
 ---
 CreatedAt: 2026-06-23
-LastUpdateAt: 2026-06-23
+LastUpdateAt: 2026-06-27
 LastReviewAt: null
 ReviewerIds: [admin]
 OwnerIds: [admin]
@@ -40,12 +40,15 @@ Table of contents for the wiki. See also [[study_path]] for a suggested order an
 ## Glossary — Arc 2: Dot Plots
 - [[dot plot]] — visual dot matrix of identities.
 - [[dot plot patterns]] — diagonals, inversions, repeats, deletions.
+- [[dot plot patterns visualized]] — a worked figure gallery building each pattern step by step.
 - [[sliding window]] — segment-based noise filtering (g, L=2g+1, N).
 - [[scoring matrix]] — per-pair scores; defines "similar".
 - [[sequence identity and similarity percent]] — the % formulas + gap caveat.
 
 ## Glossary — Arc 3: Dynamic Programming Alignment
 - [[dynamic programming]] — optimal solutions from optimal sub-solutions.
+- [[optimal substructure]] — the property that justifies DP for alignment (with cut-and-paste proof).
+- [[Needleman-Wunsch correctness]] — why the procedure provably returns the *global* best alignment.
 - [[Needleman-Wunsch algorithm]] — global optimal alignment via DP.
 - [[Needleman-Wunsch recurrence]] — the scoring rule, unraveled (MATH_UNRAVELING).
 - [[traceback]] — recovering the alignment from the filled matrix.

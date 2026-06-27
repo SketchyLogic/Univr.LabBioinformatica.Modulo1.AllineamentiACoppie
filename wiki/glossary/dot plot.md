@@ -43,7 +43,7 @@ A dot plot puts one sequence on each axis and marks a dot wherever two residues 
 - **Diagonal runs = similarity**; full main diagonal = near-identical
 - Self-comparison → main diagonal + off-diagonal repeats
 - Three choices: window length **L**, similarity measure **S**, threshold **s**
-- Limits: noise (→ sliding window), identity-only (→ scoring matrix), ignores indels (→ DP)
+- Limits: noise (→ sliding window), identity-only (→ scoring matrix), ignores indels (→ DP.NW)
 
 > [!Cool] Cool fact
 > Dot plots aren't just historical: modern tools like **DOTTER** and **Dotlet** colour each cell by score, and self-dot-plots remain the go-to method for spotting tandem repeats and palindromes in genomes at a glance. [source](https://doi.org/10.1016/0378-1119(95)00714-8)

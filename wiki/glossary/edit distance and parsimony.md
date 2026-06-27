@@ -28,7 +28,7 @@ To compare two sequences, ask: **how can I transform one string into the other?*
 
 **Maximum parsimony** is the principle that resolves which alignment is "right": **evolution chooses the shortest path.** Among all the ways to transform one sequence into another, the most plausible is the one requiring the **fewest** changes — because each independent mutation is an unlikely event, so the explanation with the least of them is the most probable. The optimal alignment *manifests* this shortest path.
 
-This is the conceptual seed of scored alignment: rewarding matches and penalising mismatches/gaps is just a way of **searching for the most parsimonious transformation** — formalised by the [[Needleman-Wunsch algorithm]].
+This is the conceptual seed of scored alignment: rewarding matches and penalizing mismatches/gaps is just a way of **searching for the most parsimonious transformation** — formalized by the [[Needleman-Wunsch algorithm]].
 
 # TLDR
 **Edit distance** is the minimum number of operations (substitutions + indels) to turn one sequence into another — fewer ops means more related. **Maximum parsimony** resolves which alignment is "right": evolution follows the shortest path, so the fewest-changes explanation is the most probable.
@@ -37,7 +37,7 @@ This is the conceptual seed of scored alignment: rewarding matches and penalisin
 - Edit distance = **min operations** to transform one sequence into the other
 - Operations = mismatches (substitutions) + gaps (indels)
 - Fewer ops → smaller distance → more related
-- **Maximum parsimony**: evolution takes the shortest path
+- **Maximum parsimony**: evolution most-likely takes the shortest path
 - Same idea as **Levenshtein distance** (spell-checkers, plagiarism)
 
 > [!Cool] Cool fact

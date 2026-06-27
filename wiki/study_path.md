@@ -1,6 +1,6 @@
 ---
 CreatedAt: 2026-06-23
-LastUpdateAt: 2026-06-23
+LastUpdateAt: 2026-06-27
 LastReviewAt: null
 ReviewerIds: [admin]
 OwnerIds: [admin]
@@ -23,7 +23,7 @@ A suggested order for studying the wiki, building from concepts to algorithm. St
    → consolidate with [[alignment-foundations-key-concepts]].
 
 ## 2. Dot plots — *a first method* ([[dot-plots]])
-9. [[dot plot]] → [[dot plot patterns]] — the visual method.
+9. [[dot plot]] → [[dot plot patterns]] → [[dot plot patterns visualized]] — the visual method (with a worked figure gallery).
 10. [[sliding window]] — filtering noise.
 11. [[scoring matrix]] — measuring similarity, not just identity.
 12. [[sequence identity and similarity percent]] — quantifying results.
@@ -31,7 +31,7 @@ A suggested order for studying the wiki, building from concepts to algorithm. St
    → consolidate with [[dot-plots-key-concepts]].
 
 ## 3. Dynamic programming — *the optimal alignment* ([[dynamic-programming-alignment]])
-13. [[dynamic programming]] — the strategy + optimal substructure.
+13. [[dynamic programming]] → [[optimal substructure]] → [[Needleman-Wunsch correctness]] — the strategy, the property that justifies it, and the proof the procedure is globally optimal.
 14. [[Needleman-Wunsch algorithm]] — the procedure.
 15. [[Needleman-Wunsch recurrence]] — the maths, unraveled.
 16. [[traceback]] — reading out the alignment.
@@ -39,4 +39,4 @@ A suggested order for studying the wiki, building from concepts to algorithm. St
    → consolidate with [[dynamic-programming-alignment-key-concepts]].
 
 ## Before the exam
-Re-read the three Key Concepts pages, then re-do the three exercises from scratch. Pay special attention to the `EXAM_PREP`-flagged entries: [[homology vs similarity]], [[orthologs vs paralogs]], [[sequence identity and similarity percent]], [[Needleman-Wunsch algorithm]], [[Needleman-Wunsch recurrence]].
+Re-read the three Key Concepts pages, then re-do the three exercises from scratch. Pay special attention to the `EXAM_PREP`-flagged entries: [[homology vs similarity]], [[orthologs vs paralogs]], [[sequence identity and similarity percent]], [[Needleman-Wunsch algorithm]], [[Needleman-Wunsch recurrence]], [[optimal substructure]], [[Needleman-Wunsch correctness]].

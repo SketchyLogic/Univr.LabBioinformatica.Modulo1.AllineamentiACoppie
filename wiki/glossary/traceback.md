@@ -8,7 +8,7 @@ prereqs: 3
 density: 3
 value: 4
 CreatedAt: 2026-06-23
-LastUpdateAt: 2026-06-23
+LastUpdateAt: 2026-06-27
 LastReviewAt: null
 ReviewerIds: [admin]
 OwnerIds: [admin]
@@ -29,7 +29,7 @@ GeneratedBy: claude-opus-4-8
   - **left** → a gap in the other.
 - Continue until you reach the **top-left** cell; reverse the emitted columns to read the alignment left-to-right.
 
-This is possible **only because** the problem has **optimal substructure** (see [[dynamic programming]]): *"removing residues one by one from the end, the alignment must stay optimal, so the path can be reconstructed backwards."* Each cell effectively **memorised** which neighbour gave its best score.
+This is possible **only because** the problem has **[[optimal substructure]]** (see also [[dynamic programming]]): *"removing residues one by one from the end, the alignment must stay optimal, so the path can be reconstructed backwards."* Each cell effectively **memorised** which neighbour gave its best score.
 
 > [!Caution] Ties = multiple optimal alignments
 > When two predecessors give the same max, there are **multiple** equally-optimal alignments. The lecture's rule — *"choose the one with the higher final score"* — resolves the path, but real tools may report several co-optimal alignments.

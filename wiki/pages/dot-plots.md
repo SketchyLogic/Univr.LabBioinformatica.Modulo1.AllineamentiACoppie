@@ -19,7 +19,7 @@ GeneratedBy: claude-opus-4-8
 A [[dot plot]] stacks one sequence on the top axis and the other on the side, marking a dot at every identity. Similarity shows up as **diagonals**; the geometry of those diagonals — [[dot plot patterns|main diagonal, inversions, repeats, deletions]] — tells you what kind of event relates the sequences. A self-comparison exposes internal repeats.
 
 ## Taming the noise
-For 4-letter nucleotide alphabets the real signal drowns in random matches. The fix is the [[sliding window]]: compare whole segments (radius *g*, length *L = 2g+1*) and mark the centre only if the segment matches well above a threshold *s*. True matches lie on diagonals; noise is scattered.
+For 4-letter nucleotide alphabets the real signal drowns in random matches. The fix is the [[sliding window]]: compare whole segments (radius *g*, length *L = 2g+1*) and mark the center only if the segment matches well above a threshold *s*. True matches lie on diagonals; noise is scattered.
 
 ## From identity to similarity
 The strict identity-only rule is relaxed by a [[scoring matrix]] (*matrice di punteggio*): score every residue pair, average over the window, and let the matrix define what "similar" means. A finished dot plot depends on three choices: the window length *L*, the similarity measure *S(x,y)*, and the threshold *s*.
