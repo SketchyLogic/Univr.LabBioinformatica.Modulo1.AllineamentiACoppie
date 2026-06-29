@@ -8,7 +8,7 @@ prereqs: 1
 density: 1
 value: 5
 CreatedAt: 2026-06-23
-LastUpdateAt: 2026-06-23
+LastUpdateAt: 2026-06-27
 LastReviewAt: null
 ReviewerIds: [admin]
 OwnerIds: [admin]
@@ -33,7 +33,7 @@ L A   C A S S A   V U O T A      mismatch: N↔V (substitution)
 These three are the alphabet of every alignment and of every scoring scheme: a typical scheme rewards matches (`+1`), neutral/penalises mismatches (`0`), and penalises gaps (`−1`) — see [[Needleman-Wunsch algorithm]]. Gaps are penalised because indels are evolutionarily **less frequent** than substitutions, so an alignment should not invent them freely.
 
 > [!Caution] A gap is one event, not one residue
-> A run of several dashes usually reflects a **single** insertion/deletion event of that length, not many independent ones — which is why advanced schemes use a larger "gap-open" penalty plus a smaller "gap-extend" penalty (cf. the EMBOSS `needle` parameters).
+> A run of several dashes usually reflects a **single** insertion/deletion event of that length, not many independent ones — which is why advanced schemes use a larger "gap-open" penalty plus a smaller "gap-extend" penalty — the [[affine gap penalty]] $w(k)=g+e(k-1)$ (cf. the EMBOSS `needle` parameters).
 
 # TLDR
 Every alignment column is exactly one of three outcomes: a **match** (identical residues), a **mismatch** (a substitution), or a **gap** (an indel). Gaps are penalized most because indels are evolutionarily rarer than substitutions.

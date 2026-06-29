@@ -18,7 +18,7 @@ GeneratedBy: claude-opus-4-8
 
 # traceback
 
-**Traceback** is the second half of [[Needleman-Wunsch algorithm|Needleman–Wunsch]]: once the matrix is filled, you recover the actual **alignment** by walking **backwards** from the last cell. The fill phase finds the optimal *score*; traceback turns that score into the optimal *alignment*. [[raw/Teoria_L3_ALLINEAMENTI_A_COPPIE_25-26.pdf#page=9|L3 p.9]]
+**Traceback** is the second half of [[Needleman-Wunsch algorithm|Needleman–Wunsch]]: once the matrix is filled, you recover the actual **alignment** by walking **backwards** from the last cell (the bottom-right corner for global NW; the **maximum-scoring** cell for local [[Smith-Waterman algorithm|Smith–Waterman]]). The fill phase finds the optimal *score*; traceback turns that score into the optimal *alignment*. [[raw/Teoria_L3_ALLINEAMENTI_A_COPPIE_25-26.pdf#page=9|L3 p.9]]
 
 **How it works:**
 - Start at the **bottom-right** cell (it holds the optimal global score).

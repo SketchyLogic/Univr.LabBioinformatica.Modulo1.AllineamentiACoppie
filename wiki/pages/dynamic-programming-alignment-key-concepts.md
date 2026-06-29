@@ -15,7 +15,7 @@ GeneratedBy: claude-opus-4-8
 ---
 
 ## Definitions
-- **[[dynamic programming]]** — solve a problem from optimal sub-solutions, stored to avoid recomputation.
+- **[[dynamic programming]]** — solve a problem from optimal sub-solutions, stored to avoid re-computation.
 - **Optimal substructure** — an optimal alignment is composed of optimal sub-alignments.
 - **[[Needleman-Wunsch algorithm]]** — 1970 DP algorithm for the globally optimal alignment (handles indels).
 - **[[traceback]]** — walk back from the last cell to recover the alignment.
@@ -24,7 +24,7 @@ GeneratedBy: claude-opus-4-8
 1. **Initialize** the matrix (1 if residues identical, 0 otherwise — or use a [[scoring matrix]]).
 2. **Fill**: column by column, each cell = its base score + best predecessor (the recurrence).
 3. **Traceback**: from bottom-right → top-left; diagonal = paired residues, up/left = gap.
-**Rules:** forward-only path; maximise identities, minimise indels; account for similarity.
+**Rules:** forward-only path; maximize identities, minimize indels; account for similarity.
 
 ## Key formula
 $$S(i,j) = s(a_i,b_j) + \max\big[\,S(i-1,j-1),\ S(i-k,j-1),\ S(i-1,j-l)\,\big]$$

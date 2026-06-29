@@ -1,6 +1,6 @@
 ---
 CreatedAt: 2026-06-23
-LastUpdateAt: 2026-06-23
+LastUpdateAt: 2026-06-29
 LastReviewAt: null
 ReviewerIds: [admin]
 OwnerIds: [admin]
@@ -11,6 +11,27 @@ GeneratedBy: claude-opus-4-8
 # Operation Log
 
 Append-only record of wiki changes (newest first).
+
+## 2026-06-29 — Update: [[exercise-evalue-interpretation]] — E-value vs p-value intuition
+- **Reason**: user wanted an intuitive contrast of E-value and p-value.
+- **Change**: added an "E-value vs p-value (intuition)" subsection — E = expected *count* of chance hits (unbounded, scales with search size) vs p = *probability* of at least one (capped at 1), with a bus-stop `[!Hint]` analogy explaining why $p\approx E$ when small and why they diverge when large ($p=1-e^{-E}$). Mirrored as Read aloud KP.3.Concept (verdict→KP.4, CoolFact→KP.5) and a new Q&A pair. `LastUpdateAt` bumped to 2026-06-29.
+
+## 2026-06-29 — Update: [[Z-score (alignment)]] — "best-of-many" intuition for non-normality
+- **Reason**: user asked *why* alignment scores aren't normally distributed — wanted intuition, not derivation.
+- **Change**: expanded the `[!Caution]` normal-distribution callout with the maximum-of-many-alignments → lopsided ("tallest person in a crowd") intuition; mirrored it as a new Read aloud beat (KP.4.Concept, CoolFact renumbered to KP.5) and a new Q&A pair. `LastUpdateAt` bumped to 2026-06-29.
+
+## 2026-06-27 — Ingest: Teoria L4 *ALGO_WS_MATRICI_DI_PUNTEGGIO* (Allineamenti di sequenze 2 — Matrici di Sostituzione)
+- **Source**: `raw/Teoria_L4_ALGO_WS_MATRICI_DI_PUNTEGGIO.pdf` (12 pages, 48 slides; Dell'Orco, UniVR Lab. Bioinformatica, Modulo 1).
+- **Plan**: `PLAN-20260627-L4.md` (approved with inline answers — 3 arcs; dual significance PATH; expand overview; all exercises; keep entries split; correct K–A formula + erratum file; standardise on "Smith–Waterman").
+- **New modules/arcs**: `LocalAlignment`, `AlignmentSignificance`, `SubstitutionMatrices` (→ 6 arcs total in Modulo 1).
+- **New PATH tag**: `Math/Statistics/SignificanceTesting` (carried *alongside* `Bioinformatics/SequenceAnalysis` on the 5 significance entries, per user request — dual PATH).
+- **Pages created (7)**: arc pages [[local-alignment]], [[alignment-significance]], [[substitution-matrices]]; key-concepts [[local-alignment-key-concepts]], [[alignment-significance-key-concepts]], [[substitution-matrices-key-concepts]]; source map [[Teoria_L4_ALGO_WS_MATRICI_DI_PUNTEGGIO]].
+- **Glossary created (19)**: Arc 4 — global vs local alignment, affine gap penalty (MATH_UNRAVELING), Smith-Waterman algorithm. Arc 5 — statistical significance of an alignment, Z-score (alignment) (MATH_UNRAVELING), E-value (Karlin-Altschul) (MATH_UNRAVELING), Gumbel distribution and the p-value, Karlin-Altschul p-value erratum. Arc 6 — substitution matrix, amino acid similarity, PAM (Point Accepted Mutation), relative mutability, amino acid frequencies, PAM1 mutation probability matrix, PAM matrix extrapolation, log-odds score (MATH_UNRAVELING), BLOSUM matrix, PAM vs BLOSUM, twilight zone.
+- **Exercises created (4)**: exercise-smith-waterman-local, exercise-evalue-interpretation, exercise-blosum62-scoring, exercise-log-odds-score.
+- **Source correction**: slide 14's p-value drops a minus sign → wiki uses $p=1-e^{-E}$; discrepancy documented in [[Karlin-Altschul p-value erratum]] (per user request, in its own file).
+- **Existing entries updated (cross-links to L4)**: [[scoring matrix]] (→ substitution matrix/log-odds; `LastUpdateAt` bumped), [[match mismatch gap]] (→ affine gap penalty; bumped), [[Needleman-Wunsch recurrence]] (→ affine gap penalty, Smith-Waterman), [[Needleman-Wunsch algorithm]] (→ affine/SW limitations), [[traceback]] (→ local traceback).
+- **Overview**: [[pairwise-alignment-overview]] expanded from "Lecture L3" to the **Modulo-1 (L3+L4)** map (6 arcs).
+- **Updated**: `index.md` (3 new arc sections + 4 exercises + L4 source map), `study_path.md` (sections 4–6 + L4 exam list).
 
 ## 2026-06-27 — New entry: [[Needleman-Wunsch correctness]] (why the procedure is globally optimal)
 - **Reason**: user pressed on a real gap — optimal substructure is *necessary* but doesn't prove the procedure yields the best alignment.

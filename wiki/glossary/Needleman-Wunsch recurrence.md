@@ -42,7 +42,7 @@ The index $i-k$ (with $k \ge 1$) is general **on purpose**: $k$ is the *length* 
 
 Two reasons to keep this general form:
 - it is the **original 1970** Needleman–Wunsch recurrence, which maxed over the *entire* preceding row and column;
-- it is **needed for non-linear gap penalties** — e.g. **affine** gaps (a large *gap-open* cost + a small *gap-extend* cost), where a length-$k$ gap does **not** cost the same as $k$ separate length-1 gaps, so every possible gap length must be weighed explicitly.
+- it is **needed for non-linear gap penalties** — e.g. **[[affine gap penalty|affine]]** gaps (a large *gap-open* cost + a small *gap-extend* cost), where a length-$k$ gap does **not** cost the same as $k$ separate length-1 gaps, so every possible gap length must be weighed explicitly.
 
 With a plain **linear** gap penalty (every gap position costs the same fixed amount), a long gap is just the sum of single-residue gaps, so the best $k$-jump can always be rebuilt from a chain of one-row-up steps. The recurrence then **collapses to the immediate neighbour** $S(i-1,j)$ — the clean three-neighbour form used in the worked [[exercise-needleman-wunsch-worked|example]], and far faster: $O(mn)$ instead of $O\big(mn\,(m+n)\big)$, because you no longer rescan the column at every cell.
 
@@ -66,7 +66,7 @@ Each cell's score is its base reward plus the best of three predecessors: $S(i,j
 - Add a fourth option "0" → Smith–Waterman (local alignment)
 
 > [!Cool] Cool fact
-> The diagonal-vs-gap choice is the whole ballgame: the closely related **Smith–Waterman** algorithm changes this recurrence in just **one** place — it adds a fourth option, `0`, forbidding negative scores — and that single tweak turns *global* alignment into *local* alignment. [source](https://doi.org/10.1016/0022-2836(81)90087-5)
+> The diagonal-vs-gap choice is the whole ballgame: the closely related **[[Smith-Waterman algorithm|Smith–Waterman]]** algorithm changes this recurrence in just **one** place — it adds a fourth option, `0`, forbidding negative scores — and that single tweak turns *global* alignment into *local* alignment. [source](https://doi.org/10.1016/0022-2836(81)90087-5)
 
 # Read aloud
 KP.0.Definition: What the recurrence is for.

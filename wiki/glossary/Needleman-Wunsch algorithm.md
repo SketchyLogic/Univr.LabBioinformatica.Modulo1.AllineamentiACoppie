@@ -28,7 +28,7 @@ The **Needleman–Wunsch (NW)** algorithm (1970) computes the **globally optimal
 - **Vertical** (↓) — a **gap in the top sequence** (an indel).
 - **Horizontal** (→) — a **gap in the side sequence** (an indel).
 
-> If Vertical or Horizontal you add gaps in the movement direction.
+> Move in one direction add on the orthogonal sequence
 
 These are exactly the three options inside the [[Needleman-Wunsch recurrence|recurrence's `max`]]. The diagonal is the *most common* move — it pairs residues — while the orthogonal moves are what introduce gaps; on a [[dot plot patterns visualized|dot-plot grid]] an orthogonal step is what makes a diagonal "shift" (the indel signature).
 
@@ -46,7 +46,7 @@ These are exactly the three options inside the [[Needleman-Wunsch recurrence|rec
 - Account for amino-acid **similarity** (evolutionary meaning), via the scoring matrix.
 - Relies on **[[optimal substructure]]**: optimal alignment = optimal sub-alignments (see [[dynamic programming]]); the proof that NW returns the *global* optimum is in [[Needleman-Wunsch correctness]].
 
-The worked example (`ADCNYRQCLCRPM` vs `AYCYNRCKCRDP`) terminates at the bottom-right with total **8 = 8/15 = 53% identity** — the score there equals the number of identical residues. See the exercise [[exercise-needleman-wunsch-worked]]. NW is available online as **EMBOSS `needle`** at EBI.
+The worked example (`ADCNYRQCLCRPM` vs `AYCYNRCKCRDP`) terminates at the bottom-right with total **8 = 8/15 = 53% identity** — the score there equals the number of identical residues. See the exercise [[exercise-needleman-wunsch-worked]]. NW's two limitations — a flat gap model and global-only scope — are lifted in L4 by the [[affine gap penalty]] and the [[Smith-Waterman algorithm]] (local). NW is available online as **EMBOSS `needle`** at EBI.
 
 # TLDR
 Needleman–Wunsch finds the **globally optimal** alignment of two sequences by dynamic programming, in three phases — **initialize, fill (recurrence), traceback** — and explicitly handles indels. An alignment is the highest-scoring path through the matrix; the algorithm is O(mn).

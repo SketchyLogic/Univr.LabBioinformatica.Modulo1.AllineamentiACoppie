@@ -8,7 +8,7 @@ prereqs: 2
 density: 3
 value: 5
 CreatedAt: 2026-06-23
-LastUpdateAt: 2026-06-23
+LastUpdateAt: 2026-06-27
 LastReviewAt: null
 ReviewerIds: [admin]
 OwnerIds: [admin]
@@ -20,7 +20,7 @@ GeneratedBy: claude-opus-4-8
 
 A **scoring matrix** (*matrice di punteggio* — **not** a dot matrix!) assigns a numerical score to **every pair of residues**, encoding how interchangeable they are. It is what lets an alignment measure [[identity conservation similarity|similarity]], not just identity. [[raw/Teoria_L3_ALLINEAMENTI_A_COPPIE_25-26.pdf#page=7|L3 p.7]]
 
-For nucleotides it can be a small 4×4 table; for proteins it is a 20×20 table. The diagonal (identical pairs) carries the highest scores; off-diagonal entries are positive for **conservative** substitutions and low/negative for unlike pairs.
+For nucleotides it can be a small 4×4 table; for proteins it is a 20×20 table. The diagonal (identical pairs) carries the highest scores; off-diagonal entries are positive for **conservative** substitutions and low/negative for unlike pairs. For proteins, the real scores come from an evolution-derived [[substitution matrix]] — the **PAM** and **BLOSUM** families, whose entries are [[log-odds score|log-odds]] of observed-vs-chance substitution (L4).
 
 > [!Example] Nucleotide scoring matrix
 > With a matrix where identical bases score `+2` and others `0` or `±1`, aligning `AAATCCGAA` vs `ATACAGATT` sums to `2+1+2+0+0+1+0+1+1 = 8`. The matrix — not raw identity — sets the score. [[raw/Teoria_L3_ALLINEAMENTI_A_COPPIE_25-26.pdf#page=7|L3 p.7]]

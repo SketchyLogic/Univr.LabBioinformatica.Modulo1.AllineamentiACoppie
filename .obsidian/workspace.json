@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "c02313814db55948",
+            "id": "e415c0cf3b10bd9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/glossary/exercise-needleman-wunsch-worked.md",
+                "file": "wiki/glossary/PAM (Point Accepted Mutation).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "exercise-needleman-wunsch-worked"
+              "title": "PAM (Point Accepted Mutation)"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/glossary/exercise-needleman-wunsch-worked.md",
+                "file": "wiki/glossary/PAM (Point Accepted Mutation).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of exercise-needleman-wunsch-worked"
+              "title": "Outline of PAM (Point Accepted Mutation)"
             }
           }
         ],
@@ -198,43 +198,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "c02313814db55948",
+  "active": "e415c0cf3b10bd9b",
   "lastOpenFiles": [
     "wiki/study_path.md",
-    "wiki/glossary/exercise-needleman-wunsch-worked.md",
-    "pyNw/README.md",
-    "pyNw/README.md.tmp.23292.61d8960d62a6",
-    "pyNw/__pycache__/nw_visual.cpython-314.pyc",
-    "pyNw/__pycache__",
-    "pyNw/nw_visual.py",
-    "pyNw/nw_visual.py.tmp.23292.de5437d79672",
-    "pyNw",
-    "wiki/log.md.tmp.23292.c4d4cae45920",
-    "wiki/study_path.md.tmp.23292.63efb6cd1de9",
-    "wiki/study_path.md.tmp.23292.b610d459f50f",
-    "wiki/index.md.tmp.23292.10aecc03ac5c",
-    "wiki/glossary/Needleman-Wunsch correctness.md",
-    "wiki/glossary/optimal substructure.md",
+    "wiki/glossary/substitution matrix.md",
+    "wiki/glossary/amino acid similarity.md",
+    "wiki/glossary/exercise-evalue-interpretation.md",
+    "wiki/pages/substitution-matrices.md",
+    "wiki/log.md.tmp.24012.6c9519830f62",
+    "wiki/glossary/exercise-evalue-interpretation.md.tmp.24012.5208a7d565e7",
+    "wiki/glossary/exercise-evalue-interpretation.md.tmp.24012.9d06ce6ca3ad",
+    "wiki/glossary/exercise-evalue-interpretation.md.tmp.24012.97824c7cd7a0",
+    "wiki/glossary/exercise-evalue-interpretation.md.tmp.24012.3038a734f258",
+    "wiki/glossary/E-value (Karlin-Altschul).md",
+    "wiki/glossary/Z-score (alignment).md",
+    "wiki/log.md.tmp.24012.29aec9f3f09e",
+    "wiki/log.md.tmp.24012.04d62fcf120b",
+    "wiki/glossary/Z-score (alignment).md.tmp.24012.878712a552f2",
+    "wiki/glossary/Z-score (alignment).md.tmp.24012.7037fd7fe230",
+    "wiki/glossary/Z-score (alignment).md.tmp.24012.cbfa54612e88",
+    "wiki/pages/alignment-significance.md",
+    "wiki/glossary/exercise-smith-waterman-local.md",
+    "wiki/glossary/Smith-Waterman algorithm.md",
+    "wiki/glossary/global vs local alignment.md",
+    "wiki/glossary/affine gap penalty.md",
+    "wiki/pages/local-alignment.md",
+    "wiki/pages/dynamic-programming-alignment-key-concepts.md",
     "wiki/glossary/Needleman-Wunsch algorithm.md",
-    "wiki/glossary/Needleman-Wunsch recurrence.md",
-    "wiki/glossary/dynamic programming.md",
-    "wiki/pages/dynamic-programming-alignment.md",
-    "wiki/glossary/exercise-dot-plot-construction.md",
-    "wiki/glossary/dot plot patterns visualized.md",
-    "wiki/glossary/dot plot patterns.md",
-    "wiki/glossary/sliding window.md",
-    "wiki/glossary/dot plot.md",
-    "wiki/pages/dot-plots.md",
-    "wiki/glossary/edit distance and parsimony.md",
-    "wiki/glossary/match mismatch gap.md",
-    "wiki/glossary/homology.md",
-    "wiki/glossary/identity conservation similarity.md",
-    "wiki/glossary/protein vs DNA alignment.md",
-    "wiki/glossary/applications of pairwise alignment.md",
-    "wiki/glossary/pairwise alignment.md",
-    "CLAUDE.md",
-    "wiki/pages/alignment-foundations.md",
-    "wiki/pages/pairwise-alignment-overview.md",
-    "block-quotes.types.md"
+    "wiki/glossary/exercise-needleman-wunsch-worked.md",
+    "PLAN-20260627-L4.md",
+    "wiki/sourcemaps/Teoria_L4_ALGO_WS_MATRICI_DI_PUNTEGGIO.md",
+    "wiki/pages/substitution-matrices-key-concepts.md",
+    "wiki/glossary/exercise-log-odds-score.md",
+    "wiki/glossary/exercise-blosum62-scoring.md",
+    "wiki/glossary/twilight zone.md",
+    "wiki/glossary/PAM vs BLOSUM.md",
+    "wiki/glossary/BLOSUM matrix.md",
+    "wiki/glossary/log-odds score.md",
+    "wiki/glossary/PAM matrix extrapolation.md",
+    "Attachments/Pasted image 20260627174342.png"
   ]
 }
