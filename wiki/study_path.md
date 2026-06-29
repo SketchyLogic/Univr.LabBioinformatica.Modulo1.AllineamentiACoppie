@@ -65,3 +65,6 @@ A suggested order for studying the wiki, building from concepts to algorithms to
 Re-read the six Key Concepts pages, then re-do the seven exercises from scratch. Pay special attention to the `EXAM_PREP`-flagged entries:
 - **L3**: [[homology vs similarity]], [[orthologs vs paralogs]], [[sequence identity and similarity percent]], [[Needleman-Wunsch algorithm]], [[Needleman-Wunsch recurrence]], [[optimal substructure]], [[Needleman-Wunsch correctness]].
 - **L4**: [[global vs local alignment]], [[affine gap penalty]], [[Smith-Waterman algorithm]], [[statistical significance of an alignment]], [[E-value (Karlin-Altschul)]], [[Gumbel distribution and the p-value]], [[substitution matrix]], [[PAM (Point Accepted Mutation)]], [[PAM matrix extrapolation]], [[log-odds score]], [[BLOSUM matrix]], [[PAM vs BLOSUM]], [[twilight zone]].
+
+
+test

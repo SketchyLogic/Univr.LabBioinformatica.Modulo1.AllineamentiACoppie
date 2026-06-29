@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "978449c7ef49b6f0",
+        "id": "ed51cabec741d262",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe9ed18633019a7",
+            "id": "feb6bb7ea42f2252",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "study_path"
             }
-          },
-          {
-            "id": "e415c0cf3b10bd9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/glossary/PAM (Point Accepted Mutation).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PAM (Point Accepted Mutation)"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/glossary/PAM (Point Accepted Mutation).md",
+                "file": "wiki/study_path.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PAM (Point Accepted Mutation)"
+              "title": "Outline of study_path"
             }
           },
           {
@@ -209,9 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e415c0cf3b10bd9b",
+  "active": "feb6bb7ea42f2252",
   "lastOpenFiles": [
     "wiki/study_path.md",
+    "wiki/glossary/PAM (Point Accepted Mutation).md",
     "wiki/glossary/substitution matrix.md",
     "wiki/glossary/amino acid similarity.md",
     "wiki/glossary/exercise-evalue-interpretation.md",
@@ -246,7 +232,6 @@
     "wiki/glossary/PAM vs BLOSUM.md",
     "wiki/glossary/BLOSUM matrix.md",
     "wiki/glossary/log-odds score.md",
-    "wiki/glossary/PAM matrix extrapolation.md",
     "Attachments/Pasted image 20260627174342.png"
   ]
 }
